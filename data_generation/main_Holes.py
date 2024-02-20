@@ -50,7 +50,7 @@ width = 0.25
 
 
 
-ti.init(arch=ti.cpu, dynamic_index=False)
+ti.init(arch=ti.cpu) #, dynamic_index=False)
 
 output_dir = os.path.join(output_dir_root, 'test_tension0{test_number}_wid-{width}_'+mesh_file_name,'sim_seq_data_mu={mu}_lamb={lamb}').format(test_number=test_number, width=width, mu=mu, lamb=lamb)
 output = os.path.join(output_dir,"h5_f_{:010d}.h5")

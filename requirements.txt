@@ -1,0 +1,4 @@
+polyscope
+meshio
+h5py
+taichi
